@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b15bbb1f-ee4c-492d-9ede-11cea6171608" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -59,6 +60,11 @@
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt" afterDir="false" />
+=======
+    <list default="true" id="56d074b1-8c24-424d-bf8d-4d5c4e5b438b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt" afterDir="false" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/navgraph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/navgraph.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,30 +95,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="gradle" value="1" />
           <entry key="kt" value="1" />
           <entry key="xml" value="4" />
+=======
+          <entry key="java" value="1" />
+          <entry key="kt" value="2" />
+          <entry key="xml" value="1" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="Groovy" value="1" />
           <entry key="Kotlin" value="1" />
           <entry key="XML" value="4" />
+=======
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="2" />
+          <entry key="XML" value="1" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="gradle" value="2" />
           <entry key="kt" value="552" />
           <entry key="txt" value="9" />
+=======
+          <entry key="kt" value="141" />
+          <entry key="txt" value="64" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="Groovy" value="2" />
           <entry key="Kotlin" value="552" />
           <entry key="PLAIN_TEXT" value="9" />
+=======
+          <entry key="Kotlin" value="141" />
+          <entry key="PLAIN_TEXT" value="64" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
         </counts>
       </usages-collector>
     </session>
@@ -122,11 +150,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="816">
               <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#42#373#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="442">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
             </state>
           </provider>
         </entry>
@@ -140,13 +173,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="352">
               <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+=======
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#42#279#0" expanded="true" />
+              </folding>
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
           <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
@@ -162,6 +204,11 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
           <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/navgraph.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
         </entry>
       </file>
     </leaf>
@@ -2562,6 +2609,11 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/navigation/navgraph.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/app/src/main/res/navigation/navgraph.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
       </list>
     </option>
   </component>
@@ -2604,7 +2656,11 @@
               <item name="BlacksburgActivities" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+<<<<<<< HEAD
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+=======
+              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
             </path>
             <path>
               <item name="BlacksburgActivities" type="1abcf292:AndroidViewProjectNode" />
@@ -2612,10 +2668,13 @@
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="navigation" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="BlacksburgActivities" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
+=======
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
           </expand>
           <select />
         </subPane>
@@ -2628,6 +2687,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/T02_DeptNews" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -2715,6 +2775,24 @@
       <option name="presentableId" value="Default" />
       <updated>1553216151077</updated>
     </task>
+<<<<<<< HEAD
+=======
+    <task id="LOCAL-00001" summary="Yes I instantiated 4 textviews in detail frag">
+      <created>1553215496008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553215496008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Yes I instantiated 4 textviews in detail frag. Fixed some bugs">
+      <created>1553215650272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553215650272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2745,6 +2823,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Yes I instantiated 4 textviews in detail frag" />
+    <MESSAGE value="Yes I instantiated 4 textviews in detail frag. Fixed some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yes I instantiated 4 textviews in detail frag. Fixed some bugs" />
+  </component>
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
       <provider editor-type-id="text-editor" />
@@ -2756,6 +2842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="352">
           <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
         </state>
@@ -2773,6 +2860,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+=======
+        <state relative-caret-position="442">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/navgraph.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+>>>>>>> 4a82b06d4d546b0a048d9f3825e4650f2ab75c32
           <folding>
             <element signature="e#42#373#0" expanded="true" />
           </folding>

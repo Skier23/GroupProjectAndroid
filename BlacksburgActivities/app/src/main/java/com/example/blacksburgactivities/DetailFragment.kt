@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.TextView
 
 /**
@@ -32,12 +31,7 @@ class DetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, container, false)
-    }
-
-    override fun onViewCreated(view: View, bundle: Bundle?) {
-        super.onViewCreated(view, bundle)
+        var view = inflater.inflate(R.layout.fragment_detail, container, false)
         name = this.arguments?.getString("name")
         date = this.arguments?.getString("date")
         location = this.arguments?.getString("location")
@@ -49,7 +43,7 @@ class DetailFragment : Fragment() {
         (view.findViewById(R.id.detail) as TextView).text = detail
 
 
-        
+        return view
     }
 
     // TODO: Rename method, update argument and hook method into UI event
