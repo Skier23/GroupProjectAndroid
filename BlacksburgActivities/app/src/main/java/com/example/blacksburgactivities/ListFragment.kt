@@ -43,7 +43,7 @@ class ListFragment : Fragment() {
         (view.findViewById(R.id.detail) as TextView).text = detail
 
 
-        
+
     }
 
     override fun onAttach(context: Context) {
