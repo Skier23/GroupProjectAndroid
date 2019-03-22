@@ -1,8 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar">
     <CLASSES>
+<<<<<<< HEAD:BlacksburgActivities/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7f497769886075f2177ec8e45f368242/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7f497769886075f2177ec8e45f368242/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3e011f36693fbe1b6af25b49895c40e7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/3e011f36693fbe1b6af25b49895c40e7/res" />
+>>>>>>> origin/master:BlacksburgActivities/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES>

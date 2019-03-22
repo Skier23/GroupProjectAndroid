@@ -1,11 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar">
     <ANNOTATIONS>
+<<<<<<< HEAD:BlacksburgActivities/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/70322cc8bc90ad0c2f189b42eab14edc/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/70322cc8bc90ad0c2f189b42eab14edc/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/70322cc8bc90ad0c2f189b42eab14edc/res" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ea55837a515f91071a0abc1993f9727c/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ea55837a515f91071a0abc1993f9727c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ea55837a515f91071a0abc1993f9727c/jars/classes.jar!/" />
+>>>>>>> origin/master:BlacksburgActivities/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES>

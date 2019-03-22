@@ -1,11 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.media:media:1.0.0-beta01@aar">
     <ANNOTATIONS>
+<<<<<<< HEAD:BlacksburgActivities/.idea/libraries/Gradle__androidx_media_media_1_0_0_beta01_aar.xml
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/d8b474a8c2c2c557fab796c268888a23/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/d8b474a8c2c2c557fab796c268888a23/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/d8b474a8c2c2c557fab796c268888a23/jars/classes.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/c68d46d561649874c3221c6151f22a52/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/c68d46d561649874c3221c6151f22a52/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-1.0.0-beta01.aar/c68d46d561649874c3221c6151f22a52/res" />
+>>>>>>> origin/master:BlacksburgActivities/.idea/libraries/Gradle__androidx_media_media_1_0_0_beta01_aar.xml
     </CLASSES>
     <JAVADOC />
     <SOURCES>
