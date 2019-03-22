@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.navigation:navigation-runtime:1.0.0@aar">
+    <CLASSES>
+<<<<<<< HEAD
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-1.0.0.aar/71974ece38a7f9421081c6c7e943659b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-1.0.0.aar/71974ece38a7f9421081c6c7e943659b/jars/classes.jar!/" />
+=======
+<<<<<<< HEAD
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-1.0.0.aar/c76b0ff27465db1f74b66c9f5d64acfd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-1.0.0.aar/c76b0ff27465db1f74b66c9f5d64acfd/res" />
+=======
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-1.0.0.aar/47587291ff5e0c8d85426cf9427cffcb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-navigation-runtime-1.0.0.aar/47587291ff5e0c8d85426cf9427cffcb/jars/classes.jar!/" />
+>>>>>>> origin/master
+>>>>>>> a0c1b6584aae40ef8f2005a7a4c79a86ba28eafe
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-runtime/1.0.0/fc575d297c8c49c50f6288d789ff617657992f93/navigation-runtime-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
