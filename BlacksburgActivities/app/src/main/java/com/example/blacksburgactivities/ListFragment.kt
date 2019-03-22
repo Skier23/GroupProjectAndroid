@@ -8,6 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import androidx.navigation.findNavController
 
 
 /**
@@ -19,7 +21,7 @@ class ListFragment : Fragment() {
     private var date: String? = null
     private var location: String? = null
     private var detail: String? = null
-    private var listener: OnFragmentInteractionListener? = null
+    private var listener: DetailFragment.OnFragmentInteractionListener? = null
 
 
     override fun onCreateView(
@@ -30,49 +32,30 @@ class ListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
-    override fun onViewCreated(view: View, bundle: Bundle?) {
-        super.onViewCreated(view, bundle)
-        name = this.arguments?.getString("name")
-        date = this.arguments?.getString("date")
-        location = this.arguments?.getString("location")
-        detail = this.arguments?.getString("detail")
+inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
 
-        (view.findViewById(R.id.name) as TextView).text = name
-        (view.findViewById(R.id.date) as TextView).text = date
-        (view.findViewById(R.id.location) as TextView).text = location
-        (view.findViewById(R.id.detail) as TextView).text = detail
+    private var events = emptyList<EventItem>()
 
-
-
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.EventViewHolder {
+        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
+        return EventViewHolder(view)
     }
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is OnFragmentInteractionListener) {
-            listener = context
-        } else {
-            throw RuntimeException(context.toString() + " must implement OnFragmentInteractionListener")
+    override fun getItemCount(): Int {
+        return events.size
+    }
+
+    override fun onBindViewHolder(holder: ListAdapter.EventViewHolder, position: Int) {
+        holder.view.findViewById<TextView>(R.id.eventName).text = events[position].name
+
+        // TODO bundleOf here
+        holder.itemView.setOnClickListener {
+            view?.findNavController()?.navigate(R.id.action_listFragment_to_detailFragment)
         }
     }
 
-    override fun onDetach() {
-        super.onDetach()
-        listener = null
-    }
+    inner class EventViewHolder(val view: View): RecyclerView.ViewHolder(view){
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     *
-     *
-     * See the Android Training lesson [Communicating with Other Fragments]
-     * (http://developer.android.com/training/basics/fragments/communicating.html)
-     * for more information.
-     */
-    interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        fun onFragmentInteraction(uri: Uri)
     }
+}
 }
