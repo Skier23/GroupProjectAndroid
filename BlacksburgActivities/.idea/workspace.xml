@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AndroidLayouts">
     <shared>
       <config />
@@ -44,6 +45,12 @@
       <change beforePath="$PROJECT_DIR$/BlacksburgActivities.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BlacksburgActivities.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="56d074b1-8c24-424d-bf8d-4d5c4e5b438b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt" afterDir="false" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +71,7 @@
     </system>
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1546695803">
+    <session id="296893348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
@@ -73,12 +80,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="xml" value="2" />
+=======
+          <entry key="java" value="1" />
+          <entry key="kt" value="2" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="XML" value="2" />
+=======
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="47" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
         </counts>
       </usages-collector>
     </session>
@@ -86,6 +113,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml">
           <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
@@ -95,6 +123,26 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
           <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="android-designer2" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+              <folding>
+                <element signature="e#42#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
         </entry>
       </file>
     </leaf>
@@ -105,7 +153,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Derek\.gradle\wrapper\dists\gradle-4.10.1-all\455itskqi2qtf0v2sja68alqd\gradle-4.10.1" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\ChrisPC\.gradle\wrapper\dists\gradle-4.10.1-all\455itskqi2qtf0v2sja68alqd\gradle-4.10.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -2481,11 +2529,27 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1376" />
     <option name="height" value="744" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="281" />
+    <option name="y" value="-25" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2494,7 +2558,11 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="ProjectPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2513,6 +2581,7 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="blacksburgactivities" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="BlacksburgActivities" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
@@ -2530,16 +2599,20 @@
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="navigation" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
+=======
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="ProjectPane" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.project.structure.last.selected" value="SDK Location" />
-    <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -2622,18 +2695,41 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="f76bb749-f535-4c8e-9007-45a014923bb4" name="Default Changelist" comment="" />
       <created>1553214508917</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553214508917</updated>
+=======
+      <changelist id="56d074b1-8c24-424d-bf8d-4d5c4e5b438b" name="Default Changelist" comment="" />
+      <created>1553215423379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553215423379</updated>
     </task>
+    <task id="LOCAL-00001" summary="Yes I instantiated 4 textviews in detail frag">
+      <created>1553215496008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553215496008</updated>
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1376" height="744" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32978722" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32995737" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -2647,7 +2743,11 @@
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" weight="0.3295082" />
+=======
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.329718" />
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -2658,7 +2758,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Yes I instantiated 4 textviews in detail frag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yes I instantiated 4 textviews in detail frag" />
+  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
@@ -2667,5 +2772,31 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
+=======
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/ListFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/blacksburgactivities/DetailFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#42#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> a88fb605102bbf3d36709afe570b4ac7f29fb85a
   </component>
 </project>
