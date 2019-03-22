@@ -1,7 +1,5 @@
 package com.example.blacksburgactivities
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -22,7 +20,6 @@ class ListFragment : Fragment() {
     private var date: String? = null
     private var location: String? = null
     private var detail: String? = null
-    private var listener: DetailFragment.OnFragmentInteractionListener? = null
 
 
     override fun onCreateView(
@@ -36,14 +33,14 @@ class ListFragment : Fragment() {
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-        adapter.setEvents(adapter.events)
+        adapter.setEvents(adapter.events1)
 
         return view
     }
 
 inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
 
-    var events = mutableListOf<EventItem>()
+    var events1 = mutableListOf<EventItem>()
 
     fun setEvents(events: MutableList<EventItem>) {
         for (i in 0 until 20) {
@@ -58,11 +55,11 @@ inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return events.size
+        return events1.size
     }
 
     override fun onBindViewHolder(holder: ListAdapter.EventViewHolder, position: Int) {
-        holder.view.findViewById<TextView>(R.id.eventName).text = events[position].name
+        holder.view.findViewById<TextView>(R.id.eventName).text = events1[position].name
 
         // TODO bundleOf here
         holder.itemView.setOnClickListener {

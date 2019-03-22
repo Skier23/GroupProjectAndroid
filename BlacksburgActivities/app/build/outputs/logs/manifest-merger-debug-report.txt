@@ -1,0 +1,210 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-ui-ktx-1.0.0.aar\ec52c9325111f0d4d0cd2003c1baf6ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-ui-1.0.0.aar\9d941026e30b362f0f3c7109be68d8b0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\97c84a21a4a0a4bf46555fa6d58c7638\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha03.aar\ffd7c87bb42ea3729a13c366619a7391\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-ktx-1.1.0-alpha05.aar\153ac2cb34e23d520e6241641bc9a29b\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\65045169a82c4d8a93cc421d6e97c319\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\21a38d94e8178531c40e512757aae347\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-fragment-ktx-1.0.0.aar\84d64e89f6b78aad87ce6f2592543588\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-fragment-1.0.0.aar\f50026e2bd4f87846edfacd9f2272550\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\a4c28da285a2b2ca5a20aced2ee11225\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-runtime-ktx-1.0.0.aar\bb5a8abcf50d8ea045e4944f7ebf91f1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-common-ktx-1.0.0.aar\1cfbad38e2fcfa0c622d4dc30f869df5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha05.aar\09ef0db8af629b45d71a16f0867f690a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-alpha03.aar\7a3804ed4befe01eb2d4101bb2b721de\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\4971a7d9d32b58b388fccc311364d3e4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\5c70e5551948bdf0dd8790c6d04f173c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\36d8aae08171f9fd9fc4809d6034d73b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\14c3427e06141611914e08aad61f5ced\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-runtime-1.0.0.aar\5df21e6d701282c2480e9ba43f8547dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\43b9146534c043d5186a8d51b7bc2820\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\66aba30465ccab6b65202cccde3ed534\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\d33467691f692a40728e3e77cb7d20d6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\d7a893c53aa917f18494b45891288c23\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha05.aar\1e4592dea778c32293fb5b8ddad005d5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\77625306935267becd04828d56ad2357\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\2ff45bd76d4893c08c2d5ee2a8dccee2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\177b1f7401898c50b207db85b230f144\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d996560cdd6f2e565b4b3e42f5737aa9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\320c4c4748cb9aed8546eb6fb9392af4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\687a3fc39e221173ba02b1978631cfb2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-common-1.0.0.aar\88aa5122219deb7faf7a344e99a9556b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha05.aar\d1ea3f430c0093df4f79fc5c1383db10\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\997b1f2deb1fd88acc55bb48233c656a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\c3cb648adc87de1fc97e212b8f7be63a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha02.aar\7dd1d26cae92ca1bb292814618e28827\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\73416bfb050409a2a0bb8792a43793fd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\1839267db68a3b298acda20cbf6e3eb5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\1e6fd4c11ed79eb499fb6851afd2054e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\fbdea182b53a57d167859c79c42c8b63\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-alpha03.aar\05ff9682c995b1956d15790d51d1ebd8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-alpha02.aar\2891c0a938234d119fc2bc6419d338e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\365934a2fbd3f1350d9196b1ea6fde52\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\dfdbf29f1922d48da879fc9c0e400fc3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\342270b16215abe5bdf587cc0d6e716d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-alpha03.aar\235f2135d80c24ce4b803b294e4868ee\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:3:11-53
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\97c84a21a4a0a4bf46555fa6d58c7638\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\97c84a21a4a0a4bf46555fa6d58c7638\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\65045169a82c4d8a93cc421d6e97c319\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\65045169a82c4d8a93cc421d6e97c319\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha05.aar\d1ea3f430c0093df4f79fc5c1383db10\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha05.aar\d1ea3f430c0093df4f79fc5c1383db10\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha02.aar\7dd1d26cae92ca1bb292814618e28827\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha02.aar\7dd1d26cae92ca1bb292814618e28827\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha05.aar\d1ea3f430c0093df4f79fc5c1383db10\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.example.blacksburgactivities.MainActivity
+ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-ui-ktx-1.0.0.aar\ec52c9325111f0d4d0cd2003c1baf6ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-ui-ktx-1.0.0.aar\ec52c9325111f0d4d0cd2003c1baf6ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-ui-1.0.0.aar\9d941026e30b362f0f3c7109be68d8b0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-ui-1.0.0.aar\9d941026e30b362f0f3c7109be68d8b0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\97c84a21a4a0a4bf46555fa6d58c7638\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\97c84a21a4a0a4bf46555fa6d58c7638\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha03.aar\ffd7c87bb42ea3729a13c366619a7391\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha03.aar\ffd7c87bb42ea3729a13c366619a7391\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-ktx-1.1.0-alpha05.aar\153ac2cb34e23d520e6241641bc9a29b\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-ktx-1.1.0-alpha05.aar\153ac2cb34e23d520e6241641bc9a29b\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\65045169a82c4d8a93cc421d6e97c319\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\65045169a82c4d8a93cc421d6e97c319\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\21a38d94e8178531c40e512757aae347\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\21a38d94e8178531c40e512757aae347\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-fragment-ktx-1.0.0.aar\84d64e89f6b78aad87ce6f2592543588\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-fragment-ktx-1.0.0.aar\84d64e89f6b78aad87ce6f2592543588\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-fragment-1.0.0.aar\f50026e2bd4f87846edfacd9f2272550\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-fragment-1.0.0.aar\f50026e2bd4f87846edfacd9f2272550\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\a4c28da285a2b2ca5a20aced2ee11225\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\a4c28da285a2b2ca5a20aced2ee11225\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-runtime-ktx-1.0.0.aar\bb5a8abcf50d8ea045e4944f7ebf91f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-runtime-ktx-1.0.0.aar\bb5a8abcf50d8ea045e4944f7ebf91f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-common-ktx-1.0.0.aar\1cfbad38e2fcfa0c622d4dc30f869df5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-common-ktx-1.0.0.aar\1cfbad38e2fcfa0c622d4dc30f869df5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha05.aar\09ef0db8af629b45d71a16f0867f690a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha05.aar\09ef0db8af629b45d71a16f0867f690a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-alpha03.aar\7a3804ed4befe01eb2d4101bb2b721de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-alpha03.aar\7a3804ed4befe01eb2d4101bb2b721de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\4971a7d9d32b58b388fccc311364d3e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\4971a7d9d32b58b388fccc311364d3e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\5c70e5551948bdf0dd8790c6d04f173c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\5c70e5551948bdf0dd8790c6d04f173c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\36d8aae08171f9fd9fc4809d6034d73b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\36d8aae08171f9fd9fc4809d6034d73b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\14c3427e06141611914e08aad61f5ced\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\14c3427e06141611914e08aad61f5ced\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-runtime-1.0.0.aar\5df21e6d701282c2480e9ba43f8547dc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-runtime-1.0.0.aar\5df21e6d701282c2480e9ba43f8547dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\43b9146534c043d5186a8d51b7bc2820\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\43b9146534c043d5186a8d51b7bc2820\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\66aba30465ccab6b65202cccde3ed534\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\66aba30465ccab6b65202cccde3ed534\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\d33467691f692a40728e3e77cb7d20d6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\d33467691f692a40728e3e77cb7d20d6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\d7a893c53aa917f18494b45891288c23\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\d7a893c53aa917f18494b45891288c23\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha05.aar\1e4592dea778c32293fb5b8ddad005d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha05.aar\1e4592dea778c32293fb5b8ddad005d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\77625306935267becd04828d56ad2357\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\77625306935267becd04828d56ad2357\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\2ff45bd76d4893c08c2d5ee2a8dccee2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\2ff45bd76d4893c08c2d5ee2a8dccee2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\177b1f7401898c50b207db85b230f144\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\177b1f7401898c50b207db85b230f144\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d996560cdd6f2e565b4b3e42f5737aa9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\d996560cdd6f2e565b4b3e42f5737aa9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\320c4c4748cb9aed8546eb6fb9392af4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\320c4c4748cb9aed8546eb6fb9392af4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\687a3fc39e221173ba02b1978631cfb2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\687a3fc39e221173ba02b1978631cfb2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-common-1.0.0.aar\88aa5122219deb7faf7a344e99a9556b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\jetified-navigation-common-1.0.0.aar\88aa5122219deb7faf7a344e99a9556b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha05.aar\d1ea3f430c0093df4f79fc5c1383db10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-1.1.0-alpha05.aar\d1ea3f430c0093df4f79fc5c1383db10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\997b1f2deb1fd88acc55bb48233c656a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\997b1f2deb1fd88acc55bb48233c656a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\c3cb648adc87de1fc97e212b8f7be63a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\c3cb648adc87de1fc97e212b8f7be63a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha02.aar\7dd1d26cae92ca1bb292814618e28827\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-alpha02.aar\7dd1d26cae92ca1bb292814618e28827\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\73416bfb050409a2a0bb8792a43793fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\73416bfb050409a2a0bb8792a43793fd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\1839267db68a3b298acda20cbf6e3eb5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\1839267db68a3b298acda20cbf6e3eb5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\1e6fd4c11ed79eb499fb6851afd2054e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\1e6fd4c11ed79eb499fb6851afd2054e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\fbdea182b53a57d167859c79c42c8b63\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\fbdea182b53a57d167859c79c42c8b63\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-alpha03.aar\05ff9682c995b1956d15790d51d1ebd8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-alpha03.aar\05ff9682c995b1956d15790d51d1ebd8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-alpha02.aar\2891c0a938234d119fc2bc6419d338e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-alpha02.aar\2891c0a938234d119fc2bc6419d338e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\365934a2fbd3f1350d9196b1ea6fde52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\365934a2fbd3f1350d9196b1ea6fde52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\dfdbf29f1922d48da879fc9c0e400fc3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\dfdbf29f1922d48da879fc9c0e400fc3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\342270b16215abe5bdf587cc0d6e716d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\342270b16215abe5bdf587cc0d6e716d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-alpha03.aar\235f2135d80c24ce4b803b294e4868ee\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] C:\Users\tyler\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-alpha03.aar\235f2135d80c24ce4b803b294e4868ee\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\AndroidManifest.xml
