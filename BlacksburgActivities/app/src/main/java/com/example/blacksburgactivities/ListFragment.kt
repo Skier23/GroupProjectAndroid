@@ -36,14 +36,20 @@ class ListFragment : Fragment() {
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-
+        adapter.setEvents(adapter.events)
 
         return view
     }
 
 inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
 
-    private var events = List<EventItem>(20)
+    var events = mutableListOf<EventItem>()
+
+    fun setEvents(events: MutableList<EventItem>) {
+        for (i in 0 until 20) {
+            events.add(EventItem("name $i", "date $i", "location $i", "detail $i"))
+        }
+    }
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.EventViewHolder {
