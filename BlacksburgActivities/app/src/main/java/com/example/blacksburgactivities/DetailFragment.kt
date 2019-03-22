@@ -14,8 +14,10 @@ import android.view.ViewGroup
  */
 class DetailFragment : Fragment() {
     // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    private var name: String? = null
+    private var date: String? = null
+    private var location: String? = null
+    private var detail: String? = null
     private var listener: OnFragmentInteractionListener? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +32,24 @@ class DetailFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_detail, container, false)
+    }
+
+    override fun onViewCreated(view: View, bundle: Bundle?) {
+        super.onViewCreated(view, bundle)
+        name = this.arguments?.getString("name")
+        date = this.arguments?.getString("date")
+        location = this.arguments?.getString("location")
+        detail = this.arguments?.getString("detail")
+
+        (view.findViewById(R.id.name) as TextView).text = name
+        (view.findViewById(R.id.date) as TextView).text = date
+        (view.findViewById(R.id.location) as TextView).text = location
+        (view.findViewById(R.id.detail) as TextView).text = detail
+
+
+        (findViewById<Button>(R.id.back)).setOnClickListener {
+            it.findNavController().navigate(R.id.action_)
+        }
     }
 
     // TODO: Rename method, update argument and hook method into UI event
