@@ -19,11 +19,14 @@ class DetailFragment : Fragment() {
     private var date: String? = null
     private var location: String? = null
     private var detail: String? = null
-    private var listener: OnFragmentInteractionListener? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
+            name = this.arguments?.getString("name")
+            date = this.arguments?.getString("date")
+            location = this.arguments?.getString("location")
+            detail = this.arguments?.getString("detail")
         }
     }
 
@@ -32,52 +35,12 @@ class DetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         var view = inflater.inflate(R.layout.fragment_detail, container, false)
-        name = this.arguments?.getString("name")
-        date = this.arguments?.getString("date")
-        location = this.arguments?.getString("location")
-        detail = this.arguments?.getString("detail")
-
+        
         (view.findViewById(R.id.name) as TextView).text = name
         (view.findViewById(R.id.date) as TextView).text = date
         (view.findViewById(R.id.location) as TextView).text = location
         (view.findViewById(R.id.detail) as TextView).text = detail
 
-
         return view
-    }
-
-    // TODO: Rename method, update argument and hook method into UI event
-    fun onButtonPressed(uri: Uri) {
-        listener?.onFragmentInteraction(uri)
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is OnFragmentInteractionListener) {
-            listener = context
-        } else {
-            throw RuntimeException(context.toString() + " must implement OnFragmentInteractionListener")
-        }
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        listener = null
-    }
-
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     *
-     *
-     * See the Android Training lesson [Communicating with Other Fragments]
-     * (http://developer.android.com/training/basics/fragments/communicating.html)
-     * for more information.
-     */
-    interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        fun onFragmentInteraction(uri: Uri)
     }
 }
