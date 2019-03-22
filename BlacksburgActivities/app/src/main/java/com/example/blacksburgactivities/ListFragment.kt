@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.navigation.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 
 
 /**
@@ -29,12 +30,21 @@ class ListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_list, container, false)
+        val view = inflater.inflate(R.layout.fragment_list, container, false)
+        val adapter = ListAdapter()
+        val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView.adapter = adapter
+        recyclerView.layoutManager = LinearLayoutManager(context)
+
+
+
+        return view
     }
 
 inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
 
-    private var events = emptyList<EventItem>()
+    private var events = List<EventItem>(20)
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.EventViewHolder {
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
