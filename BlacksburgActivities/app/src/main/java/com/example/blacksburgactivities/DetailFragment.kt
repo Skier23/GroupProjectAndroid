@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 
 /**
  * A simple [Fragment] subclass.
@@ -47,9 +49,7 @@ class DetailFragment : Fragment() {
         (view.findViewById(R.id.detail) as TextView).text = detail
 
 
-        (findViewById<Button>(R.id.back)).setOnClickListener {
-            it.findNavController().navigate(R.id.action_)
-        }
+        
     }
 
     // TODO: Rename method, update argument and hook method into UI event
