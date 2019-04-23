@@ -14,7 +14,7 @@ class EventItemRepository(private val eventDao: EventItemDao) {
 
     @WorkerThread
     fun deleteAll() {
-        eventDao.DeleteAll()
+        eventDao.deleteAll()
     }
 
     @WorkerThread

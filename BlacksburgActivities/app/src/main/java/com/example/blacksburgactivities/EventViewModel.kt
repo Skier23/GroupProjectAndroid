@@ -75,7 +75,11 @@ class EventViewModel(application: Application): AndroidViewModel(application){
         repository.deleteAll()
     }
 
+    fun getEvent(id: String) = scope.launch(Dispatchers.IO) {
+        repository.getEvent(id)
+    }
 
-
-
+    fun getAllEvents() = scope.launch(Dispatchers.IO) {
+        repository.getAllEvents()
+    }
 }
