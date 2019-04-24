@@ -38,10 +38,10 @@ class EventViewModel(application: Application): AndroidViewModel(application){
     }
 
 
-    fun refreshEvents(page: Int){
-        //TODO: add your API key from themoviedb.org
+    fun refreshEvents(){
+        //TODO: add your API key from googleapis.com
         disposable =
-                RetrofitService.create("https://www.googleapis.com/calendar/v3").getNowPlaying("f4aa22812bd5c1f8dd1da955d85f2531122dbe88",page).subscribeOn(
+                RetrofitService.create("https://www.googleapis.com/calendar/v3").getEvents("f4aa22812bd5c1f8dd1da955d85f2531122dbe88").subscribeOn(
                     Schedulers.io()).observeOn(
                     AndroidSchedulers.mainThread()).subscribe(
                     {result -> showResult(result)},
@@ -58,7 +58,7 @@ class EventViewModel(application: Application): AndroidViewModel(application){
 
     private fun showResult(events: Events?) {
 
-        events?.results?.forEach { event ->
+        events?.items?.forEach { event ->
             insert(event)
         }
     }
