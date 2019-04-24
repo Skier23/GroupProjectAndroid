@@ -10,7 +10,7 @@ import retrofit2.http.Query
 
 // Change the api and the link
 interface  RetrofitService {
-    @GET("calendars/tsletg2ob20o29foc6jgo3835c/")
+    @GET("/calendars/tsletg2ob20o29foc6jgo3835c@group.calendar.google.com/events")
     fun getNowPlaying(@Query("api_key") api_key: String, @Query("page") page: Int): Observable<Events>
 
 
