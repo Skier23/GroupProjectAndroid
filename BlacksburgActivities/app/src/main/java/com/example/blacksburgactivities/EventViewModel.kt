@@ -41,7 +41,7 @@ class EventViewModel(application: Application): AndroidViewModel(application){
     fun refreshEvents(page: Int){
         //TODO: add your API key from themoviedb.org
         disposable =
-                RetrofitService.create("https://api.themoviedb.org/3/").getNowPlaying("40f09f2c71f95ff15f410aace7941180",page).subscribeOn(
+                RetrofitService.create("https://www.googleapis.com/calendar/v3").getNowPlaying("f4aa22812bd5c1f8dd1da955d85f2531122dbe88",page).subscribeOn(
                     Schedulers.io()).observeOn(
                     AndroidSchedulers.mainThread()).subscribe(
                     {result -> showResult(result)},
