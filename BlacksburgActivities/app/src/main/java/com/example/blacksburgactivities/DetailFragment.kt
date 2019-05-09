@@ -1,14 +1,17 @@
 package com.example.blacksburgactivities
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.CalendarContract
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import java.util.*
 
 /**
  * A simple [Fragment] subclass.
@@ -52,6 +55,25 @@ class DetailFragment : Fragment() {
     }
 
     private fun addCalendar() {
-
+        // sample intent for testing
+        // TODO use real data
+        val startMillis: Long = Calendar.getInstance().run {
+            set(2019, 4, 11, 7, 45)
+            timeInMillis
+        }
+        val endMillis: Long = Calendar.getInstance().run {
+            set(2019, 4, 11, 8, 30)
+            timeInMillis
+        }
+        val intent = Intent(Intent.ACTION_INSERT)
+            .setData(CalendarContract.Events.CONTENT_URI)
+            .putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, startMillis)
+            .putExtra(CalendarContract.EXTRA_EVENT_END_TIME, endMillis)
+            .putExtra(CalendarContract.Events.TITLE, "Demo")
+            .putExtra(CalendarContract.Events.DESCRIPTION, "Demo this project")
+            .putExtra(CalendarContract.Events.EVENT_LOCATION, "classroom")
+            .putExtra(CalendarContract.Events.AVAILABILITY, CalendarContract.Events.AVAILABILITY_BUSY)
+            .putExtra(Intent.EXTRA_EMAIL, "derekj11@vt.edu,ski23@vt.edu,clee98@vt.edu")
+        startActivity(intent)
     }
 }
