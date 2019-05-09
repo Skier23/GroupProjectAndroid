@@ -3,4 +3,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="name_of_event">Name of Event</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="location_of_event">Location of Event</string>
+    <string name="detail_of_the_event">Detail of the event</string>
 </resources>

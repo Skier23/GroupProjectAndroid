@@ -25,6 +25,7 @@ class ListFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private lateinit var recyclerView: RecyclerView
     private val eventItems = mutableListOf<EventItem>()
+    private lateinit var model: EventViewModel
 
 
     override fun onCreateView(
@@ -42,10 +43,10 @@ class ListFragment : Fragment() {
         val adapter = ListAdapter()
         recyclerView.adapter = adapter
 
-        val model: EventViewModel? = ViewModelProviders.of(this).get(EventViewModel::class.java)
+        val model=  ViewModelProviders.of(this).get(EventViewModel::class.java)
 
 
-        model?.allEvents?.observe(this, Observer<List<EventItem>> { events ->
+        model.allEvents.observe(this, Observer<List<EventItem>> { events ->
             events?.let {
                 Log.d("WHY", "PLEASE TELL ME")
                 adapter.setEvents(it)
@@ -76,14 +77,14 @@ inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: ListAdapter.EventViewHolder, position: Int) {
-        val model : EventViewModel ? = activity?.run{ ViewModelProviders.of(this).get(EventViewModel::class.java) }
+        //val model : EventViewModel ? = activity?.run{ ViewModelProviders.of(this).get(EventViewModel::class.java) }
 
         holder.view.findViewById<TextView>(R.id.eventName).text = events[position].name
 
         // TODO bundleOf here
 
         holder.itemView.setOnClickListener {
-            model?.chosenEvent = events[position]
+            model.chosenEvent = events[position]
             view?.findNavController()?.navigate(R.id.action_listFragment_to_detailFragment, bundleOf(
                 "name" to eventItems[position].name,
                 "date" to eventItems[position].date,

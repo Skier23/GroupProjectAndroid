@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 
 /**
@@ -19,6 +20,7 @@ class DetailFragment : Fragment() {
     private var date: String? = null
     private var location: String? = null
     private var detail: String? = null
+    private var button: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,6 +43,15 @@ class DetailFragment : Fragment() {
         (view.findViewById(R.id.location) as TextView).text = location
         (view.findViewById(R.id.detail) as TextView).text = detail
 
+        button = view.findViewById(R.id.addToCalendar)
+        button?.setOnClickListener {
+            addCalendar()
+        }
+
         return view
+    }
+
+    private fun addCalendar() {
+
     }
 }
