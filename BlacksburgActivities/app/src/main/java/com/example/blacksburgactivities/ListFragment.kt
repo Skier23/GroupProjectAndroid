@@ -4,6 +4,7 @@ import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.provider.CalendarContract
+import android.util.EventLog
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -16,6 +17,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.RecyclerView
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import java.util.*
 
 
 /**
@@ -24,7 +26,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 class ListFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private lateinit var recyclerView: RecyclerView
-    private val eventItems = mutableListOf<EventItem>()
+    private lateinit var listAdapter: ListAdapter
+    private lateinit var viewManager: RecyclerView.LayoutManager
+    private val eventItems = emptyList<EventItem>()
     private lateinit var model: EventViewModel
 
 
@@ -37,19 +41,20 @@ class ListFragment : Fragment() {
 //        initArray(eventItems)
         val view = inflater.inflate(R.layout.fragment_list, container, false)
 
-        recyclerView = view.findViewById(R.id.recyclerView)
+        viewManager = LinearLayoutManager(context)
+        listAdapter = ListAdapter(eventItems, view)
+        recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView).apply {
+            layoutManager = viewManager
+            adapter = listAdapter
+        }
 
-        recyclerView.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
-        val adapter = ListAdapter()
-        recyclerView.adapter = adapter
-
-        val model=  ViewModelProviders.of(this).get(EventViewModel::class.java)
+        model=  ViewModelProviders.of(this).get(EventViewModel::class.java)
 
 
         model.allEvents.observe(this, Observer<List<EventItem>> { events ->
             events?.let {
                 Log.d("WHY", "PLEASE TELL ME")
-                adapter.setEvents(it)
+                listAdapter.setEvents(it)
             }
 
         })
@@ -57,48 +62,49 @@ class ListFragment : Fragment() {
         return view
     }
 
-inner class ListAdapter: RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
+    inner class ListAdapter(private var eventItems: List<EventItem>,
+                      private val listView: View): RecyclerView.Adapter<ListAdapter.EventViewHolder>() {
 
-    private var events = emptyList<EventItem>()
-
-    internal fun setEvents(events: List<EventItem>) {
-        this.events = events
-        notifyDataSetChanged()
-    }
+        internal fun setEvents(events: List<EventItem>) {
+            eventItems = events
+            notifyDataSetChanged()
+        }
 
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.EventViewHolder {
-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
-        return EventViewHolder(view)
-    }
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListAdapter.EventViewHolder {
+            val view: View = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
+            return EventViewHolder(view)
+        }
 
-    override fun getItemCount(): Int {
-        return events.size
-    }
+        override fun getItemCount(): Int {
+            return eventItems.size
+        }
 
-    override fun onBindViewHolder(holder: ListAdapter.EventViewHolder, position: Int) {
-        //val model : EventViewModel ? = activity?.run{ ViewModelProviders.of(this).get(EventViewModel::class.java) }
+        override fun onBindViewHolder(holder: ListAdapter.EventViewHolder, position: Int) {
+            //val model : EventViewModel ? = activity?.run{ ViewModelProviders.of(this).get(EventViewModel::class.java) }
 
-        holder.view.findViewById<TextView>(R.id.eventName).text = events[position].name
+            holder.view.findViewById<TextView>(R.id.eventName).text = eventItems[position].name
 
-        // TODO bundleOf here
+            // TODO bundleOf here
 
-        holder.itemView.setOnClickListener {
-            model.chosenEvent = events[position]
-            view?.findNavController()?.navigate(R.id.action_listFragment_to_detailFragment, bundleOf(
-                "name" to eventItems[position].name,
-                "date" to eventItems[position].date,
-                "location" to eventItems[position].location,
-                "detail" to eventItems[position].detail
-            ))
+            holder.itemView.setOnClickListener {
+                model.chosenEvent = eventItems[position]
+                listView?.findNavController()?.navigate(R.id.action_listFragment_to_detailFragment, bundleOf(
+                    "name" to eventItems[position].name,
+                    "date" to eventItems[position].date,
+                    "location" to eventItems[position].location,
+                    "detail" to eventItems[position].detail
+                )
+                )
+            }
+        }
+
+        inner class EventViewHolder(val view: View): RecyclerView.ViewHolder(view), View.OnClickListener{
+            override fun onClick(p0: View?) {
+                Log.d("Yea", ":(")
+            }
+
         }
     }
 
-    inner class EventViewHolder(val view: View): RecyclerView.ViewHolder(view), View.OnClickListener{
-        override fun onClick(p0: View?) {
-            Log.d("Yea", ":(")
-        }
-
-    }
-}
 }

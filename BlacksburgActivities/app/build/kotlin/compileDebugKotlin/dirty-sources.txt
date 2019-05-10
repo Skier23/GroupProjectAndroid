@@ -1,4 +1,0 @@
-C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\java\com\example\blacksburgactivities\DetailFragment.kt
-C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\java\com\example\blacksburgactivities\EventItem.kt
-C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\java\com\example\blacksburgactivities\ListFragment.kt
-C:\Users\tyler\Desktop\School\Android Dev\GroupProject\GroupProjectAndroid\BlacksburgActivities\app\src\main\java\com\example\blacksburgactivities\MainActivity.kt
